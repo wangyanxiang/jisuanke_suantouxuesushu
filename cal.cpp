@@ -40,6 +40,7 @@ int main() {
             printf("NONE");
             return 0;
         }
+	found = false;
         dfs(1, 1);
         if(found == false)
             printf("NONE");
