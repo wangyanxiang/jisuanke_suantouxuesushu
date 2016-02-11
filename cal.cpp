@@ -18,7 +18,8 @@ void dfs(int idx,int ret)
 			 return;
 			 }  
 			 a[idx]='+';  
-			 dfs(idx+1,ret+idx+1);  										             a[idx]='-';  
+			 dfs(idx+1,ret+idx+1);  										             
+			 a[idx]='-';  
 			 dfs(idx+1,ret-(idx+1));  
 }
 int main(){  
